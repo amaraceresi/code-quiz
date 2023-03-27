@@ -122,6 +122,7 @@ function endGame() {
         }
         prevScores.push(info)
         localStorage.setItem("scores", JSON.stringify(prevScores))
+        document.location.replace("highscores.html")
     })
 };
 
